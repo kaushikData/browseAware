@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "LinchPin",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>","http://178.128.113.186:8000/login"
+      ],
+      "js": ["jquery-3.2.1.min.js","content.js","/js/materialize.js","/js/materialize.min.js","popup.js"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "/images/pin.png",
+    "default_popup": "index.html"
+  },
+  "permissions": [
+      "<all_urls>","webRequestBlocking","tabs","http://178.128.113.186:8000/push_url","http://178.128.113.186:8000/login","http://*/*",
+        "https://*/*","notifications","http://178.128.113.186/*,http://178.128.113.186:8000/diverted"
+  ],
+  "background": {
+    "scripts": ["background.js","nudge.js"],
+    "persistent": true
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
