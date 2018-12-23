@@ -1,6 +1,6 @@
 # LinchPin (Beta)
 
-Version: 1.1
+Version: 19.1
 #### What is LinchPin?
 
 LinchPin is a chrome extension built to aid users from getting diverted while they browse.
