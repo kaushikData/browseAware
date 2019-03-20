@@ -16,7 +16,7 @@ var myNotificationID = null;
 
 setInterval(function(){
                         const Http = new XMLHttpRequest();
-                        const url='http://178.128.113.186:8000/get_nudge_status';
+                        const url='http://128.199.194.208:8000/get_nudge_status';
                         Http.open("GET", url);
                         Http.send();
                         Http.onreadystatechange=(e)=>{
@@ -34,7 +34,7 @@ chrome.notifications.onButtonClicked.addListener(function(notifId, btnIdx) {
     if (notifId === myNotificationID) {
         if (btnIdx === 0) {
             const Http = new XMLHttpRequest();
-                        const url='http://178.128.113.186:8000/nudge_feedback_diverted';
+                        const url='http://128.199.194.208:8000/nudge_feedback_diverted';
                         Http.open("GET", url);
                         Http.send();
                         Http.onreadystatechange=(e)=>{
@@ -42,7 +42,7 @@ chrome.notifications.onButtonClicked.addListener(function(notifId, btnIdx) {
                         };
         } else if (btnIdx === 1) {
             const Http = new XMLHttpRequest();
-                        const url='http://178.128.113.186:8000/nudge_feedback_not_diverted';
+                        const url='http://128.199.194.208:8000/nudge_feedback_not_diverted';
                         Http.open("GET", url);
                         Http.send();
                         Http.onreadystatechange=(e)=>{

