@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "LinchPin",
-  "version": "0.1",
+  "name": "Browse Aware",
+  "version": "19.3",
   "content_scripts": [
     {
       "matches": [
