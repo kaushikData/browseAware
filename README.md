@@ -1,14 +1,14 @@
-# LinchPin (Beta)
+# browseAware (Beta)
 
 Version: 19.1
-#### What is LinchPin?
+#### What is browseAware?
 
-LinchPin is a chrome extension built to aid users from getting diverted while they browse.
+browseAware is a chrome extension built to aid users from getting diverted while they browse.
 
 
-#### Why should I use Linchpin?
+#### Why should I use browseAware?
 
-The web is filled with services that has distracting ads and functionalities (like Autoplay) to make the users spend more and more time in their website. The users are also shown targeted Ads and articles. Our survey and initial analysis showed that a lot of users feel that they are getting distracted while they browse. Our survey also showed that they will be interested in a tool that can help them to overcome this. Linchpin is a tool that can help you stay focused and productive while you browse.
+The web is filled with services that has distracting ads and functionalities (like Autoplay) to make the users spend more and more time in their website. The users are also shown targeted Ads and articles. Our survey and initial analysis showed that a lot of users feel that they are getting distracted while they browse. Our survey also showed that they will be interested in a tool that can help them to overcome this. browseAware is a tool that can help you stay focused and productive while you browse.
 
 
 ---
@@ -19,7 +19,7 @@ The web is filled with services that has distracting ads and functionalities (li
 
 #### How to install this extension?
 
-1. Click [here](https://github.com/sreeram-0xb5e/Linchpin/archive/master.zip) to download the zip file or directly clone this repository.
+1. Click [here](https://github.com/sreeram-0xb5e/browseAware/archive/master.zip) to download the zip file or directly clone this repository.
 2. Unzip the downloaded .zip file in some local location.
 3. Open Google Chrome
 4. Go to settings and click the Extension     or just type "chrome://extensions/" in the URL tab.
